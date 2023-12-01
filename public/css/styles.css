@@ -1,0 +1,48 @@
+/*Estilos para el menú de index.php*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    text-align:left;
+    
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+.sidebar .logo img{
+    width: 150px;
+    
+}
+#logo{
+    height: 200px;
+}
